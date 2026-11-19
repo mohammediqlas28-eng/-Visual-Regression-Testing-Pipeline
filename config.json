@@ -1,0 +1,35 @@
+{
+  "base_url": "http://127.0.0.1:8000",
+  "browsers": [
+    "chromium"
+  ],
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "name": "tablet",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "pixel_threshold": 0.10,
+  "max_different_pixel_ratio": 0.015,
+  "perceptual_mae_threshold": 2.5,
+  "ignore_regions": [
+    {
+      "x": 1130,
+      "y": 20,
+      "width": 250,
+      "height": 55
+    }
+  ],
+  "wait_after_load_ms": 500
+}
